@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#D4AF37">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E Beauty Esthetics - Salon de beauté et onglerie à Marin-Epagnier">
+    <meta name="keywords" content="ongles Marin, manucure Marin, pédicure Marin, sourcils Marin, épilation Marin, ongles sains, service express">
+
+    <title>E Beauty Esthetics | Salon de beauté et Onglerie à Marin-Epagnier</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- ==================== SECTION: PRÉCHARGEUR ==================== -->
+    <div class="page-loader" id="pageLoader" aria-hidden="true">
+        <span class="page-loader-mark"><img src="assets/images/logo.webp" alt="E Beauty Esthetics" width="140" height="140"></span>
+    </div>
+
+    <!-- ==================== SECTION: HEADER (injecté par components.js) ==================== -->
+    <div id="site-header"></div>
+
+    <main id="main-content">
+    <!-- ==================== SECTION: HERO ==================== -->
+    <section id="accueil" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="subtitle">Salon de beauté & onglerie</p>
+                <h1>Votre <br class="hero-break">instant <br class="hero-break">beauté à <br class="hero-break">Marin</h1>
+                <p class="description">Manucure, extensions de cils et browlift réalisés avec précision et savoir-faire, dans un cadre chaleureux et une ambiance conviviale. Ici, chaque geste est maîtrisé pour un résultat soigné qui dure.</p>
+
+                <a href="#reservation" class="cta-button">Réserver mon rendez-vous</a>
+            </div>
+            <div class="hero-image">
+                <picture>
+                    <source srcset="assets/images/accueil-480w.webp 480w, assets/images/accueil-700w.webp 700w, assets/images/accueil.webp 918w" sizes="(max-width: 768px) 100vw, 45vw" type="image/webp">
+                    <img src="assets/images/accueil.png" width="918" height="1231" alt="E Beauty Esthetics - Salon d'ongles élégant à Marin" fetchpriority="high">
+                </picture>
+            </div>
+        </div>
+        <a href="#services" class="hero-scroll-cue" aria-label="Découvrir les services">
+            <span class="hero-scroll-cue-track"><span class="hero-scroll-cue-dot"></span></span>
+        </a>
+    </section>
+
+    <!-- ==================== SECTION: SERVICES ==================== -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="reveal-text">Mes Services</span></h2>
+                <div class="line"></div>
+                <p>Un savoir-faire professionnel, dans un cadre soigné et chaleureux</p>
+            </div>
+            <div class="services-grid">
+
+                <!-- Carte : Manucure et Pédicure -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <picture>
+                            <source srcset="assets/images/services/manucure-420w.webp 420w, assets/images/services/manucure-760w.webp 760w, assets/images/services/manucure.webp 1178w" sizes="(min-width: 900px) 36vw, 100vw" type="image/webp">
+                            <img src="assets/images/services/manucure.jpg" width="924" height="1231" alt="Manucure - E Beauty Esthetics Marin" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="service-content">
+                        <h3>Manucure et Pédicure</h3>
+                        <h4 class="service-subcategory">GEL</h4>
+                        <div class="service-item">
+                            <span class="service-name">Pose complète avec rallongement</span>
+                            <span class="service-price">100.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Pose complète sur ongles naturels</span>
+                            <span class="service-price">80.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage</span>
+                            <span class="service-price">60.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Renfort</span>
+                            <span class="service-price">50.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Dépose</span>
+                            <span class="service-price">30.-</span>
+                        </div>
+                        <h4 class="service-subcategory">Nail Art</h4>
+                        <div class="service-item">
+                            <span class="service-name">Nail Art léger</span>
+                            <span class="service-price">inclus</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Nail Art intermédiaire</span>
+                            <span class="service-price">de 10.- à 20.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Nail Art avancé</span>
+                            <span class="service-price">de 20.- à 40.-</span>
+                        </div>
+                        <h4 class="service-subcategory">Pédicure</h4>
+                        <div class="service-item">
+                            <span class="service-name">Renfort avec semi-permanent</span>
+                            <span class="service-price">50.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Dépose</span>
+                            <span class="service-price">20.-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte : Extensions de cils -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <picture>
+                            <source srcset="assets/images/services/extensions-de-cils-420w.webp 420w, assets/images/services/extensions-de-cils-760w.webp 760w, assets/images/services/extensions-de-cils.webp 1180w" sizes="(min-width: 900px) 36vw, 100vw" type="image/webp">
+                            <img src="assets/images/services/extensions-de-cils.jpg" width="1180" height="2095" alt="Lashes - E Beauty Esthetics Marin" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="service-content">
+                        <h3>Extensions de cils</h3>
+                        <h4 class="service-subcategory">CIL à CIL</h4>
+                        <div class="service-item">
+                            <span class="service-name">Pose complète</span>
+                            <span class="service-price">130.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 2 semaines</span>
+                            <span class="service-price">60.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 3 semaines</span>
+                            <span class="service-price">70.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 4 semaines</span>
+                            <span class="service-price">80.-</span>
+                        </div>
+                        <h4 class="service-subcategory">Volume brésilien</h4>
+                        <div class="service-item">
+                            <span class="service-name">Pose complète</span>
+                            <span class="service-price">160.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 2 semaines</span>
+                            <span class="service-price">70.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 3 semaines</span>
+                            <span class="service-price">80.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 4 semaines</span>
+                            <span class="service-price">90.-</span>
+                        </div>
+                        <h4 class="service-subcategory">Volume russe</h4>
+                        <div class="service-item">
+                            <span class="service-name">Pose complète</span>
+                            <span class="service-price">180.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 2 semaines</span>
+                            <span class="service-price">90.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 3 semaines</span>
+                            <span class="service-price">100.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Remplissage 4 semaines</span>
+                            <span class="service-price">110.-</span>
+                        </div>
+                        <h4 class="service-subcategory">Dépose</h4>
+                        <div class="service-item">
+                            <span class="service-name">Dépose</span>
+                            <span class="service-price">20.-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte : Browlift -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <picture>
+                            <source srcset="assets/images/services/browlift-420w.webp 420w, assets/images/services/browlift-760w.webp 760w, assets/images/services/browlift.webp 1179w" sizes="(min-width: 900px) 36vw, 100vw" type="image/webp">
+                            <img src="assets/images/services/browlift.jpg" width="1179" height="1149" alt="Brow lift - E Beauty Esthetics Marin" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="service-content">
+                        <h3>Browlift</h3>
+                        <h4 class="service-subcategory">Browlift</h4>
+                        <div class="service-item">
+                            <span class="service-name">Browlift sans teinture</span>
+                            <span class="service-price">80.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Browlift avec teinture</span>
+                            <span class="service-price">95.-</span>
+                        </div>
+                        <h4 class="service-subcategory">épilation des sourcils</h4>
+                        <div class="service-item">
+                            <span class="service-name">Épilation des sourcils</span>
+                            <span class="service-price">20.-</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">Épilation avec teinture</span>
+                            <span class="service-price">45.-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <p class="services-cta-note">Un doute sur le choix de votre prestation ? <a href="https://wa.me/41786344144" target="_blank" rel="noopener noreferrer">Écrivez-moi sur WhatsApp</a>.</p>
+                <a href="#reservation" class="cta-button">Je réserve mon rendez-vous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION: GALERIE ==================== -->
+    <section id="galerie" class="section section-bg-gray">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="reveal-text">Ma galerie</span></h2>
+                <div class="line"></div>
+                <p>Des résultats qui parlent d'eux-mêmes</p>
+            </div>
+            <div class="gallery-grid">
+                <button type="button" class="gallery-item" data-full="assets/images/galerie/manucure1.jpg" data-caption="Manucure jaune et rose pastel avec nail art doré en forme de feuille" aria-label="Agrandir : manucure jaune pastel avec nail art doré en forme de feuille sur fond nude">
+                    <picture>
+                        <source srcset="assets/images/galerie/manucure1-480w.webp 480w, assets/images/galerie/manucure1-860w.webp 860w, assets/images/galerie/manucure1.webp 1179w" sizes="(max-width: 767px) 100vw, (max-width: 1400px) 33vw, 460px" type="image/webp">
+                        <img src="assets/images/galerie/manucure1.jpg" width="1179" height="1474" alt="Manucure jaune et rose pastel avec nail art doré en forme de feuille" loading="lazy">
+                    </picture>
+                    <span class="gallery-caption" aria-hidden="true">
+                        <span class="gallery-kicker">Manucure</span>
+                        <span class="gallery-caption-text">Jaune et rose pastel, nail art doré en forme de feuille</span>
+                    </span>
+                </button>
+
+                <button type="button" class="gallery-item" data-full="assets/images/galerie/manucure2.jpg" data-caption="Manucure nude nacré effet lait, ongles en forme d'amande allongée" aria-label="Agrandir : manucure nude nacré effet lait, ongles en forme d'amande allongée">
+                    <picture>
+                        <source srcset="assets/images/galerie/manucure2-480w.webp 480w, assets/images/galerie/manucure2-860w.webp 860w, assets/images/galerie/manucure2.webp 1179w" sizes="(max-width: 767px) 100vw, (max-width: 1400px) 33vw, 460px" type="image/webp">
+                        <img src="assets/images/galerie/manucure2.jpg" width="1179" height="1474" alt="Manucure nude nacré effet lait, ongles en forme d'amande allongée" loading="lazy">
+                    </picture>
+                    <span class="gallery-caption" aria-hidden="true">
+                        <span class="gallery-kicker">Manucure</span>
+                        <span class="gallery-caption-text">Nude nacré effet lait, forme amande allongée</span>
+                    </span>
+                </button>
+
+                <button type="button" class="gallery-item" data-full="assets/images/galerie/manucure3.jpg" data-caption="Manucure dégradé rose-orange façon coucher de soleil avec nail art fleur blanche" aria-label="Agrandir : manucure dégradé rose-orange façon coucher de soleil avec nail art fleur blanche">
+                    <picture>
+                        <source srcset="assets/images/galerie/manucure3-480w.webp 480w, assets/images/galerie/manucure3-860w.webp 860w, assets/images/galerie/manucure3.webp 1179w" sizes="(max-width: 767px) 100vw, (max-width: 1400px) 33vw, 460px" type="image/webp">
+                        <img src="assets/images/galerie/manucure3.jpg" width="1179" height="1474" alt="Manucure dégradé rose-orange façon coucher de soleil avec nail art fleur blanche" loading="lazy">
+                    </picture>
+                    <span class="gallery-caption" aria-hidden="true">
+                        <span class="gallery-kicker">Manucure</span>
+                        <span class="gallery-caption-text">Dégradé rose-orange, nail art fleur blanche</span>
+                    </span>
+                </button>
+
+                <button type="button" class="gallery-item" data-full="assets/images/galerie/manucure4.jpg" data-caption="Manucure blanche avec motif feuillage délicat sur fond nude" aria-label="Agrandir : manucure blanche avec motif feuillage délicat sur fond nude">
+                    <picture>
+                        <source srcset="assets/images/galerie/manucure4-480w.webp 480w, assets/images/galerie/manucure4-860w.webp 860w, assets/images/galerie/manucure4.webp 1114w" sizes="(max-width: 767px) 100vw, (max-width: 1400px) 33vw, 460px" type="image/webp">
+                        <img src="assets/images/galerie/manucure4.jpg" width="1114" height="1392" alt="Manucure blanche avec motif feuillage délicat sur fond nude" loading="lazy">
+                    </picture>
+                    <span class="gallery-caption" aria-hidden="true">
+                        <span class="gallery-kicker">Manucure</span>
+                        <span class="gallery-caption-text">Blanche, motif feuillage délicat sur fond nude</span>
+                    </span>
+                </button>
+
+                <button type="button" class="gallery-item" data-full="assets/images/galerie/manucure5.jpg" data-caption="French manucure nude revisitée avec liseré vert menthe et motif zébré" aria-label="Agrandir : french manucure nude revisitée avec liseré vert menthe et motif zébré">
+                    <picture>
+                        <source srcset="assets/images/galerie/manucure5-480w.webp 480w, assets/images/galerie/manucure5-860w.webp 860w, assets/images/galerie/manucure5.webp 1179w" sizes="(max-width: 767px) 100vw, (max-width: 1400px) 33vw, 460px" type="image/webp">
+                        <img src="assets/images/galerie/manucure5.jpg" width="1179" height="1474" alt="French manucure nude revisitée avec liseré vert menthe et motif zébré" loading="lazy">
+                    </picture>
+                    <span class="gallery-caption" aria-hidden="true">
+                        <span class="gallery-kicker">Manucure</span>
+                        <span class="gallery-caption-text">French revisitée, liseré vert menthe et motif zébré</span>
+                    </span>
+                </button>
+            </div>
+
+            <div class="gallery-footer">
+                <p class="gallery-footer-lead">Envie d'en voir plus ?</p>
+                <a href="https://www.instagram.com/e_beauty_esthetics/" target="_blank" rel="noopener noreferrer" class="instagram-cta">
+                    <svg width="18" height="18" fill="currentColor"><use href="#icon-instagram"></use></svg>
+                    <span>@e_beauty_esthetics</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION: RÉSERVATION ==================== -->
+    <section id="reservation" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="reveal-text">Réservation de votre rendez-vous</span></h2>
+                <div class="line"></div>
+                <p>Choisissez un créneau disponible en quelques clics</p>
+            </div>
+
+            <div class="reservation-layout">
+                <div class="reservation-concierge">
+                    <p class="concierge-kicker"></p>
+
+                    <ul class="reservation-perks">
+                        <li>
+                            <span class="perk-icon"><svg width="16" height="16" aria-hidden="true"><use href="#icon-check"></use></svg></span>
+                            <span class="perk-text">Confirmation rapide de votre rendez-vous</span>
+                        </li>
+                        <li>
+                            <span class="perk-icon"><svg width="16" height="16" aria-hidden="true"><use href="#icon-check"></use></svg></span>
+                            <span class="perk-text">Annulation et reprogrammation gratuites jusqu'à 24h avant</span>
+                        </li>
+                        <li>
+                            <span class="perk-icon"><svg width="16" height="16" aria-hidden="true"><use href="#icon-check"></use></svg></span>
+                            <span class="perk-text">Paiement sur place au moment de votre visite</span>
+                        </li>
+                    </ul>
+
+                    <div class="concierge-contact">
+                        <p>Besoin d'aide pour réserver ?</p>
+                        <div class="concierge-contact-actions">
+                            <a href="tel:+41786344144" class="concierge-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                <span>078 634 41 44</span>
+                            </a>
+                            <a href="https://wa.me/41786344144" target="_blank" rel="noopener noreferrer" class="concierge-link">
+                                <svg width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reservation-calendar-panel">
+
+                    <div class="cal-embed-frame">
+                        <div class="cal-embed-wrap">
+                            <div class="cal-embed" id="my-cal-inline-booking"></div>
+                            <div class="cal-embed-skeleton" id="calSkeleton" aria-hidden="true">
+                                <span class="cal-embed-skeleton-bar cal-embed-skeleton-bar--header"></span>
+                                <span class="cal-embed-skeleton-bar cal-embed-skeleton-bar--grid"></span>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+                            (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.eu/embed/embed.js", "init");
+                             Cal("init", "booking", {origin:"https://app.cal.eu"});
+                             Cal.config = Cal.config || {};
+                             Cal.config.forwardQueryParams = true;
+
+                               Cal.ns.booking("inline", {
+                                 elementOrSelector:"#my-cal-inline-booking",
+                                 config: {"layout":"month_view","useSlotsViewOnSmallScreen":"true","theme":"light"},
+                                 calLink: "e.beauty.esthetics/booking",
+                               });
+
+                               Cal.ns.booking("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#D4AF37","cal-text":"#1B1A17","cal-text-muted":"#4F4941","cal-bg":"#FFFFFF","cal-bg-muted":"#F8F4EA","cal-border":"#EFE6D4","cal-border-emphasis":"#D4AF37"}},"hideEventTypeDetails":true,"layout":"month_view"});
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reservation-footer">
+                <div class="reservation-policy">
+                    <h4>Politique d'annulation</h4>
+                    <p>Toute annulation ou modification doit être faite au moins 24h à l'avance. En cas d'annulation dans les 24h avant le rendez-vous ou d'absence non signalée, la totalité de la prestation vous sera facturée. <a href="/pages/conditions-generales.html" target="_blank">En savoir plus</a>.</p>
+                </div>
+                <div class="reservation-footer-divider" aria-hidden="true"></div>
+                <p class="reservation-note">Une question concernant votre résérvation ? <a href="https://wa.me/41786344144" target="_blank">Écrivez-moi sur WhatsApp</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION: CONTACT ==================== -->
+    <section id="contact" class="section section-bg-gray">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="reveal-text">Contactez-moi</span></h2>
+                <div class="line"></div>
+                <p>Une question ou une envie de beauté ? Je suis à votre disposition</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informations du Salon</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Adresse</strong>
+                            <p>Rue des Tertres 8L 2074 Marin</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Téléphone</strong>
+                            <p><a href="tel:+41786344144">078 634 41 44</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Email</strong>
+                            <p><a href="mailto:e.beauty.esthetics@gmail.com">e.beauty.esthetics@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Horaires</strong>
+                            <dl class="hours-list">
+                                <div class="hours-row">
+                                    <dt>Lundi, Mardi, Jeudi, Vendredi</dt>
+                                    <dd>16h45 – 19h00</dd>
+                                </div>
+                                <div class="hours-row">
+                                    <dt>Mercredi</dt>
+                                    <dd>13h00 – 19h00</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-section">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.678373709582!2d6.999151577403447!3d47.007287829169265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e09508da7581d%3A0xa6dac8b2eba8b581!2sRue%20des%20Tertres%208l%2C%202074%20Marin-Epagnier!5e0!3m2!1sfr!2sch!4v1784654773261!5m2!1sfr!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- ==================== SECTION: FOOTER (injecté par components.js) ==================== -->
+    <div id="site-footer"></div>
+
+    <!-- ==================== SECTION: LIGHTBOX (GALERIE) ==================== -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo agrandie" hidden>
+        <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Photo précédente">&#10094;</button>
+        <figure class="lightbox-figure">
+            <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Fermer la photo agrandie">&times;</button>
+            <div class="lightbox-viewport" id="lightboxViewport">
+                <div class="lightbox-track" id="lightboxTrack"></div>
+            </div>
+            <div class="lightbox-dots" id="lightboxDots" role="tablist" aria-label="Aller à une photo"></div>
+            <figcaption id="lightboxCaption"></figcaption>
+        </figure>
+        <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Photo suivante">&#10095;</button>
+    </div>
+
+    <script src="assets/js/components.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+
+</body>
+</html>
